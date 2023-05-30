@@ -1,0 +1,35 @@
+img {
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    border: solid 2px #6a5acd;
+    height: 125px;
+    width: 125px;
+}
+
+div {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+div .test {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 25%;
+}
+
+div .captionhead {
+    margin: 30px;
+    text-decoration: dotted;
+    font-weight: bolder;
+
+}
+
+div .caption {
+    font-weight: 400;
+    text-align: center;
+    padding: 15px 50px;
+}

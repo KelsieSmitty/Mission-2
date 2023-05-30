@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  color: #6a5acd;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: lavenderblush;
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  margin-top: 30px;
+}
+
+p {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.imgMain {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#nutty-heading {
+  font-weight: 900;
+}
+
+@keyframes dog {
+  0% {
+    left: 300px;
+  }
+
+  100% {
+    left: 0px;
+  }
+}
+
+.dogemoji {
+  height: 30px;
+  margin-bottom: 10px;
+  animation-name: dog;
+  animation-duration: 8s;
+  position: relative;
+}
+
+/* body of wordgame page */
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: larger;
+}
+
+/* Images on wordgame page */
+.peanutGallery1,
+.peanutGallery2 {
+  width: 25%;
+  height: 90%;
+}
+
+/* Images on wordgame page */
+.peanutGallery3 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+}
+
+.buttonQuiz {
+  display: block;
+  margin: 0px 10px;
+  background-color: lavender;
+  color: slateblue;
+  outline-color: rgb(35, 4, 73);
+  padding: 20px;
+  font-weight: bold;
+}
+
+.buttonQuiz a {
+  text-decoration: none;
+}
+
+.buttonQuiz:hover {
+  background-color: slateblue;
+}
+
+.buttonQuiz:hover a {
+  color: white;
+  text-decoration: underline;
+}
+
+.buttonGame {
+  display: block;
+  margin: 0px 10px;
+  background-color: lavender;
+  color: slateblue;
+  outline-color: #230449;
+  padding: 20px;
+  font-weight: bold;
+}
+
+.buttonGame a {
+  text-decoration: none;
+}
+
+.buttonGame:hover {
+  background-color: slateblue;
+}
+
+.buttonGame:hover a {
+  color: white;
+  text-decoration: underline;
+}
+
+.navigation {
+  background-color: lavender;
+}
+
+.navigation ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: auto;
+  padding: 20px;
+  margin: 0;
+}
+
+.navigation li {
+  list-style: none;
+}
+
+.navigation ul li a {
+  text-decoration: none;
+  padding: 15px;
+  font-weight: bold;
+}
+
+.navigation ul li a:hover {
+  background-color: lavenderblush;
+  padding: 20px;
+  text-decoration: underline;
+}
+
+.buttonEmail {
+  display: block;
+  margin: 0px 10px;
+  background-color: lavender;
+  color: slateblue;
+  outline-color: rgb(35, 4, 73);
+  padding: 20px;
+  font-weight: bold;
+}
+
+.buttonEmail a {
+  text-decoration: none;
+}
+
+.buttonEmail:hover {
+  background-color: slateblue;
+}
+
+.buttonEmail:hover a {
+  color: white;
+  text-decoration: underline;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgMain {
+  width: 390px;
+  height: 455px;
+  border: 8px solid rgb(35, 4, 73);
+}
+
+.guess,
+.play-again {
+  margin: 30px 10px;
+  background-color: lavender;
+  color: slateblue;
+  outline-color: rgb(35, 4, 73);
+  font-weight: bold;
+  padding: 15px 50px;
+  text-decoration: none;
+  font: bolder;
+}
+
+.guess:hover,
+.play-again:hover {
+  background-color: slateblue;
+  cursor: pointer;
+}
+
+.guess:hover,
+.play-again:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+/* play again box */
+.hide {
+  display: none;
+}
+
+.letters-guessed {
+  list-style: none;
+  padding: 0;
+}
+
+.letters-guessed li {
+  display: inline-block;
+}
+
+.word-in-progress {
+  font-size: larger;
+  letter-spacing: 15px;
+  color: rgb(35, 4, 73);
+}
+
+.form-guess {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Guess one letter */
+.form-guess label {
+  width: 100;
+  font-size: smaller;
+  text-align: center;
+}
+
+/* letter guess box */
+input {
+  padding: 10px;
+  border: 1.5px solid rgb(35, 4, 73);
+  width: 100;
+  text-align: center;
+}

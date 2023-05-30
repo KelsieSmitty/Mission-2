@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  color: #6a5acd;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+  margin-top: 0;
+  background-color: lavenderblush;
+  text-align: center;
+}
+
+h1 {
+  padding-top: 30px;
+}
+
+/* GalleryOne */
+
+div.gallery1 {
+  margin: 12px;
+  border: 3px solid rgb(255, 220, 243);
+  float: left;
+  width: 200px;
+  height: 300px;
+  margin-left: 50px;
+  margin-right: auto;
+  margin-top: 30px;
+
+}
+
+div.gallery1:hover {
+  border: 3px solid rgb(68, 3, 109);
+
+}
+
+div.gallery1 img {
+  object-fit: fill;
+}
+
+/* GalleryTwo */
+
+div.gallery2 {
+  margin: 12px;
+  border: 3px solid rgb(255, 220, 243);
+  float: left;
+  width: 200px;
+  height: 300px;
+  margin-left: 50px;
+  margin-right: auto;
+  margin-top: 10px;
+
+}
+
+div.gallery2:hover {
+  border: 3px solid rgb(68, 3, 109);
+}
+
+div.gallery2 img {
+  object-fit: cover;
+}
+
+.navigation {
+  background-color: lavender;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.navigation li {
+  float: left;
+  list-style: none;
+}
+
+.navigation ul {
+  overflow: auto;
+  padding: 20px;
+  margin: 0;
+}
+
+.navigation ul li a {
+  text-decoration: none;
+  padding: 15px;
+  font-weight: bold;
+}
+
+.navigation ul li a:hover {
+  background-color: lavenderblush;
+  padding: 20px;
+  text-decoration: underline;
+}
